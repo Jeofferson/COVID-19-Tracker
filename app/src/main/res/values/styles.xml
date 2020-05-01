@@ -1,0 +1,94 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="fontFamily">@font/lato</item>
+    </style>
+
+    <style name="ToolBarStyle" parent="Theme.AppCompat">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+<!--        <item name="actionOverflowButtonStyle">@style/ActionButtonOverflowStyle</item>-->
+<!--        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>-->
+    </style>
+
+    <style name="searchViewStyle" parent="Widget.AppCompat.Light.SearchView">
+        <item name="android:background">@color/myCardViewDark</item>
+    </style>
+
+    <style name="flag_main">
+        <item name="android:layout_width">75dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:src">@drawable/unknown_flag</item>
+    </style>
+
+    <style name="flag">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:src">@drawable/unknown_flag</item>
+    </style>
+
+    <style name="virusOpacity">
+        <item name="android:alpha">0.4</item>
+    </style>
+
+
+    <style name="bg">
+        <item name="android:background">@color/bgDark</item>
+    </style>
+
+    <style name="myCardView">
+        <item name="android:layout_margin">5dp</item>
+        <item name="cardCornerRadius">5dp</item>
+    </style>
+
+    <style name="myCardView2">
+        <item name="android:layout_margin">2.5dp</item>
+        <item name="cardCornerRadius">5dp</item>
+    </style>
+
+    <style name="myCardViewSurface">
+        <item name="android:background">@color/myCardViewDark</item>
+    </style>
+
+    <style name="overlay">
+        <item name="android:background">@color/overlay</item>
+    </style>
+
+    <style name="text">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="text2">
+        <item name="android:textColor">@color/white2</item>
+    </style>
+
+    <style name="text3">
+        <item name="android:textColor">@color/white3</item>
+    </style>
+
+    <style name="text4">
+        <item name="android:textColor">@color/white4</item>
+    </style>
+
+    <style name="red">
+        <item name="android:textColor">@color/red2</item>
+    </style>
+
+    <style name="green">
+        <item name="android:textColor">@color/green2</item>
+    </style>
+
+    <style name="blue">
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="colorPrimary">#6200EE</color>-->
+<!--    <color name="colorPrimaryDark">#3700B3</color>-->
+<!--    <color name="colorAccent">#03DAC5</color>-->
+
+    <color name="colorPrimary">@color/green</color>
+    <color name="colorPrimaryDark">@color/black</color>
+    <color name="colorAccent">@color/blue</color>
+
+    <color name="bgDark">@color/standardBlack</color>
+    <color name="myCardViewDark">@color/paletteBlack</color>
+    <color name="overlay">@color/paletteBlack</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="white2">#87FFFFFF</color>
+    <color name="white3">#60FFFFFF</color>
+    <color name="white4">#38FFFFFF</color>
+
+    <color name="black">#000000</color>
+    <color name="black2">#87000000</color>
+    <color name="black3">#60000000</color>
+    <color name="black4">#38000000</color>
+
+    <color name="currentText">@color/white</color>
+    <color name="currentText2">@color/white2</color>
+    <color name="currentText3">@color/white3</color>
+    <color name="currentText4">@color/white4</color>
+
+<!--    <color name="palette">#1b262c</color>-->
+<!--    <color name="palette2">#0f4c75</color>-->
+<!--    <color name="palette3">#3282b8</color>-->
+<!--    <color name="palette4">#bbe1fa</color>-->
+
+    <color name="standardBlack">#121212</color>
+
+    <color name="paletteBlack">#202827</color>
+    <color name="red">#CB3F28</color>
+    <color name="red2">#CF6679</color>
+    <color name="green">#398D80</color>
+    <color name="green2">#29c7ac</color>
+    <color name="blue">#F1EAB3</color>
+
+    
+</resources>

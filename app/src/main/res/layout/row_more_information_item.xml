@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginBottom="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        style="@style/myCardViewSurface"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/layoutTitle"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/text"
+                android:id="@+id/lblTitle"
+                android:layout_gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:lineSpacingMultiplier="1"
+                android:lineSpacingExtra="8dp"
+                android:text="What is coronavirus?"/>
+
+            <ImageButton
+                android:id="@+id/btnShowMessage"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:src="@drawable/ic_keyboard_arrow_down_white_24dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/text2"
+            android:id="@+id/lblMessage"
+            android:visibility="gone"
+            android:layout_below="@id/layoutTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="20dp"
+            android:lineSpacingMultiplier="1"
+            android:lineSpacingExtra="8dp"
+            android:text="Lorem ipsum dolor sit amet, e leifend corrumpit adolescens eos ei. Vis no dicam sensibus. Eos ea scripta saperet imperdiet, purto choro ne per. Ad vix alia nobis vituperata, amet euripidis temporibus sea an, vim ex laoreet molestie. Has an bonorum definiebas, sumo ferri malis sed in, mea sumo eius veri ei. Enim accusam an mei, mundi salutandi gubergren usu in.
+
+Has no vidit natum pertinax, tollit voluptua tacimates ne eum. Ut mel inani iudico facilisis, eum aeque tamquam at. Vix ornatus reprimique ex. Sale ornatus at mea, an dolorem principes incorrupte mel, at mei aliquam signiferumque. Pri eu vero eruditi accumsan, sea verterem pertinax instructior at. Per suas adhuc cu."/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PackageFragments.FragmentAbout">
+
+    <RelativeLayout
+        android:id="@+id/layoutAbout"
+        android:layout_above="@id/layoutMoreInformation"
+        android:layout_marginStart="20dp"
+        android:layout_width="200dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/app_icon"/>
+
+            <TextView
+                style="@style/text"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="COVID-19 Tracker"/>
+
+            <View
+                android:layout_marginBottom="10dp"
+                android:layout_width="150dp"
+                android:layout_height="1dp"
+                android:background="@drawable/horizontal_line_white"/>
+
+            <LinearLayout
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="Developer:"/>
+
+                <TextView
+                    style="@style/text"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jeofferson Dela Peña"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="APIs used:"/>
+
+                <TextView
+                    style="@style/text"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- NovelCOVID/API"/>
+
+                <TextView
+                    style="@style/text"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- ncovph"/>
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1"
+                android:lineSpacingExtra="4dp"
+                android:textSize="12sp"
+                android:text="The data of cities, health facilities, and individual cases are based from the official tracker of DOH. There are some slight delays because they don't immediately update the tracker after the press announcements."/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@id/layoutAbout"
+        android:layout_above="@id/layoutMoreInformation"
+        android:src="@drawable/disinfectant"/>
+
+    <LinearLayout
+        android:id="@+id/layoutMoreInformation"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="10dp"
+        android:orientation="vertical">
+
+        <Button
+            android:background="@drawable/button"
+            android:id="@+id/btnAdviceForThePublic"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAllCaps="false"
+            android:text="Advice for the Public"/>
+
+        <Button
+            android:background="@drawable/button"
+            android:id="@+id/btnMythBusters"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAllCaps="false"
+            android:text="Myth Busters"/>
+
+        <Button
+            android:background="@drawable/button"
+            android:id="@+id/btnQuestionsAndAnswers"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAllCaps="false"
+            android:text="Questions and Answers"/>
+
+        <TextView
+            style="@style/text2"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:textSize="12sp"
+            android:text="Source: https://www.who.int/"/>
+
+        <TextView
+            style="@style/text2"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:textSize="12sp"
+            android:text="More about me: jeofferson.github.io"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

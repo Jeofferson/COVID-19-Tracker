@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home_outline"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/world"
+        android:icon="@drawable/world_outline"
+        android:title="World"/>
+
+    <item
+        android:id="@+id/countries"
+        android:icon="@drawable/countries_outline"
+        android:title="Countries"/>
+
+    <item
+        android:id="@+id/myCountry"
+        android:icon="@drawable/philippines_outline"
+        android:title="PH"/>
+
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/about_outline"
+        android:title="About"/>
+
+</menu>
